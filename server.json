@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.3121n/udir-mcp",
+  "description": "MCP server exposing Norway's national school (NSR) and kindergarten (NBR) registries from UDIR — search by municipality and fetch full detail with coordinates, pupil counts and ownership.",
+  "repository": {
+    "url": "https://github.com/3121n/nor-data-udir-mcp",
+    "source": "github"
+  },
+  "version": "0.1.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@nor-data/udir-mcp",
+      "version": "0.1.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
