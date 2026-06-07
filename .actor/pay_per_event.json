@@ -1,0 +1,12 @@
+{
+    "actor-start": {
+        "eventTitle": "Actor start",
+        "eventDescription": "Flat fee for starting a UDIR MCP server run.",
+        "eventPriceUsd": 0.001
+    },
+    "tool-request": {
+        "eventTitle": "Tool call",
+        "eventDescription": "Flat fee for completing a single MCP tool call (sok_skole, hent_skole, sok_barnehage, hent_barnehage).",
+        "eventPriceUsd": 0.002
+    }
+}

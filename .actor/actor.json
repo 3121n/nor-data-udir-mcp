@@ -1,0 +1,23 @@
+{
+    "$schema": "https://apify.com/schemas/v1/actor.ide.json",
+    "actorSpecification": 1,
+    "name": "udir-mcp",
+    "title": "UDIR Schools & Kindergartens MCP",
+    "description": "MCP server exposing Norway's national school (NSR) and kindergarten (NBR) registries from UDIR. Search by municipality and fetch full detail with coordinates, pupil counts and ownership.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "usesStandbyMode": true,
+    "meta": {
+        "templateId": "ts-actorized-mcp-stdio"
+    },
+    "input": {
+        "title": "Actor input schema",
+        "description": "This Actor runs in MCP Standby mode and takes no run input.",
+        "type": "object",
+        "schemaVersion": 1,
+        "properties": {},
+        "required": []
+    },
+    "dockerfile": "./Dockerfile",
+    "webServerMcpPath": "/mcp"
+}

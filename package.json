@@ -1,7 +1,7 @@
 {
-  "name": "@drist/udir-mcp",
-  "version": "0.1.0",
-  "description": "MCP server som wrapper UDIR sine åpne registre: NSR (Nasjonalt skoleregister) og NBR (Nasjonalt barnehageregister) — søk per kommune og full detalj med koordinater, elevtall og eierform",
+  "name": "@nor-data/udir-mcp",
+  "version": "0.1.1",
+  "description": "MCP server exposing Norway's national school (NSR) and kindergarten (NBR) registries from UDIR — search by municipality and fetch full detail with coordinates, pupil counts and ownership.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -9,8 +9,17 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LISTING.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3121n/nor-data-udir-mcp.git"
+  },
+  "homepage": "https://github.com/3121n/nor-data-udir-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/3121n/nor-data-udir-mcp/issues"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -23,7 +32,11 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
+    "norway",
     "udir",
+    "school",
+    "kindergarten",
+    "education",
     "nsr",
     "nbr",
     "skole",

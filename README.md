@@ -1,4 +1,4 @@
-# @drist/udir-mcp
+# @nor-data/udir-mcp
 
 MCP-server som wrapper UDIRs åpne registre — bygget for Nabodata-kartleggingen (#4: skoler/barnehager).
 
